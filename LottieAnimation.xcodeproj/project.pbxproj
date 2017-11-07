@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525D00C71E488E3B007024F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D00C61E488E3B007024F6 /* AppDelegate.swift */; };
+		525D00C91E488E3B007024F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D00C81E488E3B007024F6 /* ViewController.swift */; };
+		525D00CC1E488E3B007024F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525D00CA1E488E3B007024F6 /* Main.storyboard */; };
+		525D00CE1E488E3B007024F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525D00CD1E488E3B007024F6 /* Assets.xcassets */; };
+		525D00D11E488E3B007024F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525D00CF1E488E3B007024F6 /* LaunchScreen.storyboard */; };
+		52AFC6FA1E48957C009475E6 /* PinJump.json in Resources */ = {isa = PBXBuildFile; fileRef = 52AFC6F71E48957C009475E6 /* PinJump.json */; };
+		52AFC6FB1E48957C009475E6 /* buttonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 52AFC6F81E48957C009475E6 /* buttonOff.json */; };
+		52AFC6FC1E48957C009475E6 /* buttonOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 52AFC6F91E48957C009475E6 /* buttonOn.json */; };
+		52AFC7011E48A236009475E6 /* HamburgerArrow.aep in Resources */ = {isa = PBXBuildFile; fileRef = 52AFC6FF1E48A236009475E6 /* HamburgerArrow.aep */; };
+		52AFC7021E48A236009475E6 /* PinJump.aep in Resources */ = {isa = PBXBuildFile; fileRef = 52AFC7001E48A236009475E6 /* PinJump.aep */; };
+		6E7369D71FA87BD60090A951 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7369D61FA87BD60090A951 /* HomeVC.swift */; };
+		6E7369D91FA87DF80090A951 /* CoreAnimationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7369D81FA87DF80090A951 /* CoreAnimationsVC.swift */; };
+		6E7369DD1FA87EA70090A951 /* Pulsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7369DC1FA87EA70090A951 /* Pulsing.swift */; };
+		6E7369DF1FA882B70090A951 /* TableViewAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7369DE1FA882B70090A951 /* TableViewAnimationVC.swift */; };
+		6E7369E31FA887B50090A951 /* SimpleAnimation1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7369E21FA887B50090A951 /* SimpleAnimation1VC.swift */; };
+		6E758DBD1FAC958600D5212B /* SimpleAnimationDancerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E758DBC1FAC958600D5212B /* SimpleAnimationDancerVC.swift */; };
+		6E7900FE1FA89D5500B1C188 /* BackgroundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7900FD1FA89D5500B1C188 /* BackgroundVC.swift */; };
+		6EAC91121FA8CF3A00D1D89E /* ViewControllerSwipeTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC91111FA8CF3A00D1D89E /* ViewControllerSwipeTransitions.swift */; };
+		6EAC91141FA8D0AE00D1D89E /* tutorial.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC91131FA8D0AE00D1D89E /* tutorial.json */; };
+		6EAC91171FA8E6A900D1D89E /* CircleTransitionHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC91161FA8E6A900D1D89E /* CircleTransitionHome.swift */; };
+		6EAC91191FA8E6BD00D1D89E /* CircleTransitionDetailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC91181FA8E6BD00D1D89E /* CircleTransitionDetailed.swift */; };
+		6EAC911C1FA8E86B00D1D89E /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC911B1FA8E86B00D1D89E /* CircularTransition.swift */; };
+		6EAC911E1FA915F200D1D89E /* ShakeAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC911D1FA915F200D1D89E /* ShakeAnimationVC.swift */; };
+		6EAC91201FA919F800D1D89E /* CoreTextAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC911F1FA919F800D1D89E /* CoreTextAnimationVC.swift */; };
+		6EE7E99C1FAB2EEE00F5AA74 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EE7E99B1FAB2EEE00F5AA74 /* Pacifico.ttf */; };
+		6EE7E9A21FAB7FAE00F5AA74 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE7E9A11FAB7FAE00F5AA74 /* logo.png */; };
+		C02CC94357715CA24152876E /* Pods_LottieAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94A6CE906FB3689E9E4F6B0 /* Pods_LottieAnimation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34C262AD8209BA61B895B1D3 /* Pods-LottieAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottieAnimation/Pods-LottieAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		525D00C31E488E3B007024F6 /* LottieAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525D00C61E488E3B007024F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		525D00C81E488E3B007024F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		525D00CB1E488E3B007024F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		525D00CD1E488E3B007024F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525D00D01E488E3B007024F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		525D00D21E488E3B007024F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52AFC6F71E48957C009475E6 /* PinJump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PinJump.json; sourceTree = "<group>"; };
+		52AFC6F81E48957C009475E6 /* buttonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buttonOff.json; sourceTree = "<group>"; };
+		52AFC6F91E48957C009475E6 /* buttonOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buttonOn.json; sourceTree = "<group>"; };
+		52AFC6FF1E48A236009475E6 /* HamburgerArrow.aep */ = {isa = PBXFileReference; lastKnownFileType = file; path = HamburgerArrow.aep; sourceTree = "<group>"; };
+		52AFC7001E48A236009475E6 /* PinJump.aep */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinJump.aep; sourceTree = "<group>"; };
+		6E7369D61FA87BD60090A951 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		6E7369D81FA87DF80090A951 /* CoreAnimationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationsVC.swift; sourceTree = "<group>"; };
+		6E7369DC1FA87EA70090A951 /* Pulsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsing.swift; sourceTree = "<group>"; };
+		6E7369DE1FA882B70090A951 /* TableViewAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAnimationVC.swift; sourceTree = "<group>"; };
+		6E7369E21FA887B50090A951 /* SimpleAnimation1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimation1VC.swift; sourceTree = "<group>"; };
+		6E758DBC1FAC958600D5212B /* SimpleAnimationDancerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimationDancerVC.swift; sourceTree = "<group>"; };
+		6E7900FD1FA89D5500B1C188 /* BackgroundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundVC.swift; sourceTree = "<group>"; };
+		6EAC91111FA8CF3A00D1D89E /* ViewControllerSwipeTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSwipeTransitions.swift; sourceTree = "<group>"; };
+		6EAC91131FA8D0AE00D1D89E /* tutorial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial.json; sourceTree = "<group>"; };
+		6EAC91151FA8D0BC00D1D89E /* Walkthrough.aep */ = {isa = PBXFileReference; lastKnownFileType = file; path = Walkthrough.aep; sourceTree = "<group>"; };
+		6EAC91161FA8E6A900D1D89E /* CircleTransitionHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTransitionHome.swift; sourceTree = "<group>"; };
+		6EAC91181FA8E6BD00D1D89E /* CircleTransitionDetailed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTransitionDetailed.swift; sourceTree = "<group>"; };
+		6EAC911B1FA8E86B00D1D89E /* CircularTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
+		6EAC911D1FA915F200D1D89E /* ShakeAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAnimationVC.swift; sourceTree = "<group>"; };
+		6EAC911F1FA919F800D1D89E /* CoreTextAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTextAnimationVC.swift; sourceTree = "<group>"; };
+		6EE7E99B1FAB2EEE00F5AA74 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		6EE7E9A11FAB7FAE00F5AA74 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		BCBCB2D686B27AB3AC5C515F /* Pods-LottieAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottieAnimation/Pods-LottieAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		D94A6CE906FB3689E9E4F6B0 /* Pods_LottieAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525D00C01E488E3A007024F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02CC94357715CA24152876E /* Pods_LottieAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525D00BA1E488E3A007024F6 = {
+			isa = PBXGroup;
+			children = (
+				525D00C51E488E3B007024F6 /* LottieAnimation */,
+				525D00C41E488E3B007024F6 /* Products */,
+				C2037C65BAE3515EE92E89A8 /* Pods */,
+				DABBD34E7122706A29654FE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		525D00C41E488E3B007024F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525D00C31E488E3B007024F6 /* LottieAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525D00C51E488E3B007024F6 /* LottieAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				525D00C61E488E3B007024F6 /* AppDelegate.swift */,
+				6E7369D61FA87BD60090A951 /* HomeVC.swift */,
+				6E7900F71FA891FB00B1C188 /* Lottie */,
+				6E7900F61FA891E600B1C188 /* Core Animations */,
+				6E7900F81FA8921100B1C188 /* Simple Animations */,
+				6E758DBB1FAC952F00D5212B /* Transitions */,
+				525D00CA1E488E3B007024F6 /* Main.storyboard */,
+				525D00CD1E488E3B007024F6 /* Assets.xcassets */,
+				525D00CF1E488E3B007024F6 /* LaunchScreen.storyboard */,
+				6EE7E9A11FAB7FAE00F5AA74 /* logo.png */,
+				525D00D21E488E3B007024F6 /* Info.plist */,
+			);
+			path = LottieAnimation;
+			sourceTree = "<group>";
+		};
+		52AFC6FD1E489594009475E6 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				52AFC6F71E48957C009475E6 /* PinJump.json */,
+				52AFC6F81E48957C009475E6 /* buttonOff.json */,
+				6EAC91131FA8D0AE00D1D89E /* tutorial.json */,
+				52AFC6F91E48957C009475E6 /* buttonOn.json */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		52AFC6FE1E48A1C0009475E6 /* AEFiles */ = {
+			isa = PBXGroup;
+			children = (
+				52AFC6FF1E48A236009475E6 /* HamburgerArrow.aep */,
+				6EAC91151FA8D0BC00D1D89E /* Walkthrough.aep */,
+				52AFC7001E48A236009475E6 /* PinJump.aep */,
+			);
+			name = AEFiles;
+			sourceTree = "<group>";
+		};
+		6E758DBB1FAC952F00D5212B /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				6EAC911A1FA8E74000D1D89E /* Circular Transition Animation */,
+				6E7369DE1FA882B70090A951 /* TableViewAnimationVC.swift */,
+				6E7900FD1FA89D5500B1C188 /* BackgroundVC.swift */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
+		6E7900F61FA891E600B1C188 /* Core Animations */ = {
+			isa = PBXGroup;
+			children = (
+				6E7369D81FA87DF80090A951 /* CoreAnimationsVC.swift */,
+				6E7369DC1FA87EA70090A951 /* Pulsing.swift */,
+				6EAC911F1FA919F800D1D89E /* CoreTextAnimationVC.swift */,
+				6EE7E99B1FAB2EEE00F5AA74 /* Pacifico.ttf */,
+			);
+			name = "Core Animations";
+			sourceTree = "<group>";
+		};
+		6E7900F71FA891FB00B1C188 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				52AFC6FE1E48A1C0009475E6 /* AEFiles */,
+				52AFC6FD1E489594009475E6 /* Animation */,
+				525D00C81E488E3B007024F6 /* ViewController.swift */,
+				6EAC91111FA8CF3A00D1D89E /* ViewControllerSwipeTransitions.swift */,
+			);
+			name = Lottie;
+			sourceTree = "<group>";
+		};
+		6E7900F81FA8921100B1C188 /* Simple Animations */ = {
+			isa = PBXGroup;
+			children = (
+				6E7369E21FA887B50090A951 /* SimpleAnimation1VC.swift */,
+				6E758DBC1FAC958600D5212B /* SimpleAnimationDancerVC.swift */,
+				6EAC911D1FA915F200D1D89E /* ShakeAnimationVC.swift */,
+			);
+			name = "Simple Animations";
+			sourceTree = "<group>";
+		};
+		6EAC911A1FA8E74000D1D89E /* Circular Transition Animation */ = {
+			isa = PBXGroup;
+			children = (
+				6EAC911B1FA8E86B00D1D89E /* CircularTransition.swift */,
+				6EAC91161FA8E6A900D1D89E /* CircleTransitionHome.swift */,
+				6EAC91181FA8E6BD00D1D89E /* CircleTransitionDetailed.swift */,
+			);
+			name = "Circular Transition Animation";
+			sourceTree = "<group>";
+		};
+		C2037C65BAE3515EE92E89A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCBCB2D686B27AB3AC5C515F /* Pods-LottieAnimation.debug.xcconfig */,
+				34C262AD8209BA61B895B1D3 /* Pods-LottieAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DABBD34E7122706A29654FE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D94A6CE906FB3689E9E4F6B0 /* Pods_LottieAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525D00C21E488E3A007024F6 /* LottieAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525D00D51E488E3B007024F6 /* Build configuration list for PBXNativeTarget "LottieAnimation" */;
+			buildPhases = (
+				6254841D857E2CCEE1B3C622 /* [CP] Check Pods Manifest.lock */,
+				525D00BF1E488E3A007024F6 /* Sources */,
+				525D00C01E488E3A007024F6 /* Frameworks */,
+				525D00C11E488E3A007024F6 /* Resources */,
+				2623AD79A0752364683FB85B /* [CP] Embed Pods Frameworks */,
+				014B27F5CAE7DAE28A3F8DA1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottieAnimation;
+			productName = LottieAnimation;
+			productReference = 525D00C31E488E3B007024F6 /* LottieAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525D00BB1E488E3A007024F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Brian Advent";
+				TargetAttributes = {
+					525D00C21E488E3A007024F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WFF35589FB;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 525D00BE1E488E3A007024F6 /* Build configuration list for PBXProject "LottieAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525D00BA1E488E3A007024F6;
+			productRefGroup = 525D00C41E488E3B007024F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525D00C21E488E3A007024F6 /* LottieAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525D00C11E488E3A007024F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EAC91141FA8D0AE00D1D89E /* tutorial.json in Resources */,
+				52AFC6FB1E48957C009475E6 /* buttonOff.json in Resources */,
+				6EE7E9A21FAB7FAE00F5AA74 /* logo.png in Resources */,
+				52AFC7011E48A236009475E6 /* HamburgerArrow.aep in Resources */,
+				52AFC7021E48A236009475E6 /* PinJump.aep in Resources */,
+				525D00D11E488E3B007024F6 /* LaunchScreen.storyboard in Resources */,
+				525D00CE1E488E3B007024F6 /* Assets.xcassets in Resources */,
+				6EE7E99C1FAB2EEE00F5AA74 /* Pacifico.ttf in Resources */,
+				525D00CC1E488E3B007024F6 /* Main.storyboard in Resources */,
+				52AFC6FC1E48957C009475E6 /* buttonOn.json in Resources */,
+				52AFC6FA1E48957C009475E6 /* PinJump.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		014B27F5CAE7DAE28A3F8DA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LottieAnimation/Pods-LottieAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2623AD79A0752364683FB85B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LottieAnimation/Pods-LottieAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6254841D857E2CCEE1B3C622 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525D00BF1E488E3A007024F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EAC91121FA8CF3A00D1D89E /* ViewControllerSwipeTransitions.swift in Sources */,
+				6E7369D71FA87BD60090A951 /* HomeVC.swift in Sources */,
+				525D00C91E488E3B007024F6 /* ViewController.swift in Sources */,
+				6EAC911E1FA915F200D1D89E /* ShakeAnimationVC.swift in Sources */,
+				6E7369E31FA887B50090A951 /* SimpleAnimation1VC.swift in Sources */,
+				6EAC91201FA919F800D1D89E /* CoreTextAnimationVC.swift in Sources */,
+				6E7369D91FA87DF80090A951 /* CoreAnimationsVC.swift in Sources */,
+				6E758DBD1FAC958600D5212B /* SimpleAnimationDancerVC.swift in Sources */,
+				6E7369DD1FA87EA70090A951 /* Pulsing.swift in Sources */,
+				525D00C71E488E3B007024F6 /* AppDelegate.swift in Sources */,
+				6EAC911C1FA8E86B00D1D89E /* CircularTransition.swift in Sources */,
+				6EAC91191FA8E6BD00D1D89E /* CircleTransitionDetailed.swift in Sources */,
+				6EAC91171FA8E6A900D1D89E /* CircleTransitionHome.swift in Sources */,
+				6E7900FE1FA89D5500B1C188 /* BackgroundVC.swift in Sources */,
+				6E7369DF1FA882B70090A951 /* TableViewAnimationVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		525D00CA1E488E3B007024F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525D00CB1E488E3B007024F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		525D00CF1E488E3B007024F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525D00D01E488E3B007024F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525D00D31E488E3B007024F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		525D00D41E488E3B007024F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525D00D61E488E3B007024F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCBCB2D686B27AB3AC5C515F /* Pods-LottieAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WFF35589FB;
+				INFOPLIST_FILE = LottieAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianadvent.LottieAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		525D00D71E488E3B007024F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C262AD8209BA61B895B1D3 /* Pods-LottieAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WFF35589FB;
+				INFOPLIST_FILE = LottieAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianadvent.LottieAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525D00BE1E488E3A007024F6 /* Build configuration list for PBXProject "LottieAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525D00D31E488E3B007024F6 /* Debug */,
+				525D00D41E488E3B007024F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525D00D51E488E3B007024F6 /* Build configuration list for PBXNativeTarget "LottieAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525D00D61E488E3B007024F6 /* Debug */,
+				525D00D71E488E3B007024F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525D00BB1E488E3A007024F6 /* Project object */;
+}

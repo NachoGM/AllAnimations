@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Pacifico.ttf">
+            <string>Pacifico-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="HhT-4o-dTO">
+                                <rect key="frame" x="150" y="296" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="RbQ-PX-VnV"/>
+                                    <constraint firstAttribute="width" secondItem="HhT-4o-dTO" secondAttribute="height" multiplier="1:1" id="iGC-C7-eaY"/>
+                                    <constraint firstAttribute="height" constant="75" id="zS4-M4-Ip0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nacho González Miró" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tj-Fu-1Dm">
+                                <rect key="frame" x="16" y="638" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="9V1-vc-u6v"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="jzy-2S-cUt"/>
+                                    <constraint firstAttribute="width" secondItem="6tj-Fu-1Dm" secondAttribute="height" multiplier="49:3" id="n6N-FB-LeQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Pacifico-Regular" family="Pacifico" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOP Animations " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PgD-aa-3G0">
+                                <rect key="frame" x="16" y="598" width="343" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="a7X-3j-WEu"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="jS8-Dh-pi7"/>
+                                    <constraint firstAttribute="width" secondItem="PgD-aa-3G0" secondAttribute="height" multiplier="343:32" id="otc-Z4-slo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Pacifico-Regular" family="Pacifico" pointSize="27"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.33333333329999998" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="2"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6tj-Fu-1Dm" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="2cd-no-aRo"/>
+                            <constraint firstItem="HhT-4o-dTO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8gy-Ft-Pio"/>
+                            <constraint firstItem="PgD-aa-3G0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="C22-Lg-XqQ"/>
+                            <constraint firstItem="6tj-Fu-1Dm" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="V1j-d8-184"/>
+                            <constraint firstItem="HhT-4o-dTO" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="cY3-mt-0vX"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="6tj-Fu-1Dm" secondAttribute="bottom" constant="8" id="dJQ-nl-HLG"/>
+                            <constraint firstItem="6tj-Fu-1Dm" firstAttribute="top" secondItem="PgD-aa-3G0" secondAttribute="bottom" constant="8" id="lKm-Dg-ckp"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="1000" height="1000"/>
+    </resources>
+</document>
