@@ -1,12 +1,7 @@
-# iOS Swift Tutorial: Insane Animations with AfterEffects and Lottie
+Sample project with a lot of different animations.+
 
-[Video on YouTube](https://youtu.be/ESjFEaZx7UI)
+If you want to open this project you must update pods.
 
-[![Video](https://img.youtube.com/vi/ESjFEaZx7UI/0.jpg)](https://www.youtube.com/watch?v=ESjFEaZx7UI)
+To do that open your terminal and go to the project folder and write pod install.
 
-
-In this tutorial you are going to learn how to use the new Lotti Framework from Airbnb that enables you to export AfterEffects animations and use them in your iOS Apps. This makes integrating cool animations so much easier and much more fun!
-
-## The Lottie Framework
-
-[GitHub Page](https://github.com/airbnb/lottie-ios)
+Enjoy it!
